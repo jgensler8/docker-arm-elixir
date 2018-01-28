@@ -2,7 +2,7 @@ DISTRIB = archlinux
 ELIXIR_BRANCH = 1.0.x
 HOST_ARCH = $(shell uname -m)
 DIRECTORY = $(HOST_ARCH)-$(DISTRIB)-$(ELIXIR_BRANCH)
-NAME = jonathantron/$(HOST_ARCH)-$(DISTRIB)-elixir
+NAME = jgensl2/$(HOST_ARCH)-$(DISTRIB)-elixir
 VERSION = 1.0.3
 
 override HOST_NOT_ARM = $(shell uname -m | grep -q x86_64 && echo 1)
